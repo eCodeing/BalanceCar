@@ -1,0 +1,228 @@
+(ExpressProject "Remote"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\remote.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\remote.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Board_sim_option "VHDL_flow")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "3")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80")
+    (IREFReportFile "F:\CADENCE BOARDS\REMOTE\REMOTE.csv")
+    (IREFViewOutput "0")
+    (Netlist_TAB "0")
+    ("Allegro Backannotation Run Genfeed" "TRUE")
+    ("Allegro Backannotation Board File"
+       "F:\Cadence Boards\Remote\board\test\Remote_T.brd")
+    ("Allegro Backannotation Netlist Directory" "allegro")
+    ("Allegro Backannotation Output File" "allegro\REMOTE.swp")
+    ("Allegro Backannotation Update Schematic" "TRUE")
+    ("Allegro Backannotation View Output" "FALSE")
+    ("Allegro Setup Configuration File"
+       "E:\Cadence\SPB_16.6\tools/capture/allegro.cfg")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Output Warnings" "FALSE")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "31")
+    (GATE_&_PIN_SWAP_Scope "0")
+    (GATE_&_PIN_SWAP_File_Name "F:\CADENCE BOARDS\REMOTE\REMOTE.SWP")
+    (Backannotation_TAB "0")
+    ("True Reuse Generate Reuse Module" "TRUE"))
+  (Folder "Outputs"
+    (File ".\remote.csv"
+      (Type "Report"))
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File ".\allegro\pinview.dat"
+      (Type "Report")
+      (DisplayName "pinView.dat"))
+    (File ".\allegro\netview.dat"
+      (Type "Report")
+      (DisplayName "netView.dat"))
+    (File ".\allegro\funcview.dat"
+      (Type "Report")
+      (DisplayName "funcView.dat"))
+    (File ".\allegro\compview.dat"
+      (Type "Report")
+      (DisplayName "compView.dat"))
+    (File ".\allegro\remote.swp"
+      (Type "Report")
+      (DisplayName "REMOTE.swp")))
+  (Folder "Referenced Projects")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "f:\cadence boards\remote\remote.dsn")
+      (Path "Design Resources" "f:\cadence boards\remote\remote.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Outputs"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 219"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 75 1240 75 347")
+        (Scroll "0 69")
+        (Zoom "150")
+        (Occurrence "/"))
+      (Path "F:\CADENCE BOARDS\REMOTE\REMOTE.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "02 Power"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 100 1290 100 357")
+        (Scroll "0 1551")
+        (Zoom "344")
+        (Occurrence "/"))
+      (Path "F:\CADENCE BOARDS\REMOTE\REMOTE.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "06 SR&BEEP"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 75 1265 75 332")
+        (Scroll "-156 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "F:\CADENCE BOARDS\REMOTE\REMOTE.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "03 LED&KEY"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 100 1290 100 357")
+        (Scroll "0 44")
+        (Zoom "216")
+        (Occurrence "/"))
+      (Path "F:\CADENCE BOARDS\REMOTE\REMOTE.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "01 Remote"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 0 1190 0 257")
+        (Scroll "0 86")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path "F:\CADENCE BOARDS\REMOTE\REMOTE.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "05 OLED&nRF24L01")))
+  (PartMRUSelector
+    ("T POINT R"
+      (FullPartName "T POINT R.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (CAP
+      (FullPartName "CAP.Normal")
+      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-R
+      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (S8550
+      (FullPartName "S8550.Normal")
+      (LibraryName "F:\CADENCE BOARDS\REMOTE\REMOTE.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 3"
+      (FullPartName "HEADER 3.Normal")
+      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (GND_EARTH
+      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (MINIUSB
+      (FullPartName "MINIUSB.Normal")
+      (LibraryName "F:\CADENCE BOARDS\STM32F4-NETRADIO\NETRADIO.OLB")
+      (DeviceIndex "0"))
+    (LTC4057ES5-4.2
+      (FullPartName "LTC4057ES5-4.2.Normal")
+      (LibraryName "F:\CADENCE BOARDS\REMOTE\REMOTE.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (LT1763CS8
+      (FullPartName "LT1763CS8.Normal")
+      (LibraryName "F:\CADENCE BOARDS\REMOTE\REMOTE.OLB")
+      (DeviceIndex "0"))
+    (BAT3.7V
+      (FullPartName "BAT3.7V.Normal")
+      (LibraryName "F:\CADENCE BOARDS\REMOTE\REMOTE.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 2"
+      (FullPartName "HEADER 2.Normal")
+      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (direction
+      (FullPartName "direction.Normal")
+      (LibraryName "F:\CADENCE BOARDS\REMOTE\REMOTE.OLB")
+      (DeviceIndex "0"))
+    (accelerator
+      (FullPartName "accelerator.Normal")
+      (LibraryName "F:\CADENCE BOARDS\REMOTE\REMOTE.OLB")
+      (DeviceIndex "0"))
+    (SLIDE_R
+      (FullPartName "SLIDE_R.Normal")
+      (LibraryName "F:\CADENCE BOARDS\REMOTE\REMOTE.OLB")
+      (DeviceIndex "0"))
+    (1R1001
+      (FullPartName "1R1001.Normal")
+      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    (buzzer
+      (FullPartName "buzzer.Normal")
+      (LibraryName "F:\CADENCE BOARDS\REMOTE\REMOTE.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (stm32f103c8t6
+      (FullPartName "stm32f103c8t6.Normal")
+      (LibraryName "F:\CADENCE BOARDS\REMOTE\REMOTE.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_16.6\tools\capture\library")
+  (MPSSessionName "wzy")
+  (ISPCBBASICLICENSE "false"))
