@@ -1,0 +1,36 @@
+\t (00:00:04) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:04)     Journal start - Thu Jan 04 10:10:10 2018
+\t (00:00:04)         Host=DESKTOP-C53OQR0 User=wzy Pid=12204 CPUs=4
+\t (00:00:04) 
+   (00:00:04) Loading axlcore.cxt 
+\t (00:00:06) Starting new design...
+   (00:00:06) Loading cmds.cxt 
+\i (00:00:06) trapsize 995
+\i (00:00:06) trapsize 968
+\i (00:00:06) trapsize 1000
+\i (00:00:06) trapsize 1014
+\i (00:00:07) trapsize 819
+\i (00:00:07) trapsize 1731
+\i (00:00:08) generaledit 
+\i (00:00:11) open 
+\i (00:00:14) fillin "balance_new.brd"
+\t (00:00:14) Opening existing design...
+\i (00:00:14) trapsize 1895
+\d (00:00:14) Database opened: F:/BalanceCar/STM32F4-BALANCE/Board/balance_new.brd
+\i (00:00:14) generaledit 
+\i (00:00:15) zoom out 1 
+\i (00:00:15) setwindow pcb
+\i (00:00:15) zoom out 2.3475 7.0947
+\i (00:00:15) trapsize 3790
+\i (00:00:15) zoom out 1 
+\i (00:00:15) setwindow pcb
+\i (00:00:15) zoom out 2.3476 7.0947
+\i (00:00:15) trapsize 7580
+\i (00:00:22) shape global param 
+\i (00:00:22) generaledit 
+\i (00:00:24) setwindow form.dyn_xshape
+\i (00:00:24) FORM dyn_xshape void_controls  
+\i (00:00:27) FORM dyn_xshape cancel  
+\i (00:00:28) setwindow pcb
+\i (00:00:28) exit 
+\t (00:00:29)     Journal end - Thu Jan 04 10:10:35 2018
