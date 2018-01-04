@@ -7,3 +7,7 @@ A complete two-wheel self-balancing car project based on the STM32 microcontroll
 2. Schematic drawing using Orcad Capture CIS
 3. The layout environment uses Cadence Allegro 16.6
 4. Gerber file export type is RS274-X
+# Communications
+1. The remote control board communicates with the main control board using the 2.4G module NRF24L01
+2. The phone communicates with the main control board through the Bluetooth serial port
+3. The main control board is reserved OLED, USART and SWD interface
